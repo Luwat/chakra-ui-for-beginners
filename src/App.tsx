@@ -1,10 +1,13 @@
+import { Box } from "@chakra-ui/react";
 import Header from "./components/Header";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
-    <div>
+    <Box textAlign='center'>
       <Header />
-    </div>
+      <Pricing />
+    </Box>
   );
 }
 
