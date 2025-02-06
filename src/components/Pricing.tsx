@@ -28,31 +28,31 @@ const Pricing = () => {
       w="994px"
       mx="auto"
       mt="-256px"
-      borderRadius="12px"
+      borderRadius="2xl"
       overflow="hidden"
       boxShadow={"0px 4px 12px rgba(0, 0, 0, 0.1)"}
     >
       <Flex>
-        <Box bg="#F0EAFB" p="60px" textAlign='center'>
-          <Text fontSize="24px" fontWeight={800}>
+        <Box bg="#F0EAFB" p="16" textAlign='center'>
+          <Text fontSize="6" fontWeight='extrabold'>
             Premium PRO
           </Text>
-          <Heading as="h3" fontSize="60px" fontWeight={800} mt="32px">
+          <Heading as="h3" fontSize="16" fontWeight='extrabold' mt="8">
             $329
           </Heading>
-          <Text color="#171923" fontSize="18px" fontWeight="500" mt="16px">
+          <Text color="#171923" fontSize="lg" fontWeight="medium" mt="4">
             Billed just Once
           </Text>
-          <Button colorPalette="purple" size="lg" w="282px" mt="24px">
+          <Button colorPalette="purple" size="lg" w="282px" mt="6">
             Get Started
           </Button>
         </Box>
-        <Box p="60px" bg="white">
+        <Box p="16" bg="white">
           <Text textAlign="left">
             Access these features when you get this pricing package for your
             business.
           </Text>
-          <Stack as="ul" gap="20px" mt="24px">
+          <Stack as="ul" gap="5" mt="6">
             <ListItem>International calling and messaging API</ListItem>
             <ListItem>Additional phone numbers</ListItem>
             <ListItem>Automated messages via Zapier</ListItem>
