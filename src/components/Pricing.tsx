@@ -9,7 +9,7 @@ import {
   StackProps,
   Text,
 } from "@chakra-ui/react";
-import CheckIcon from "../icons/icon";
+import { CheckIcon } from "../icons/Icon";
 
 const ListItem = (props: StackProps) => {
   const { children, ...rest } = props;
@@ -33,7 +33,7 @@ const Pricing = () => {
       boxShadow={"0px 4px 12px rgba(0, 0, 0, 0.1)"}
     >
       <Flex>
-        <Box bg="#F0EAFB" p="60px">
+        <Box bg="#F0EAFB" p="60px" textAlign='center'>
           <Text fontSize="24px" fontWeight={800}>
             Premium PRO
           </Text>
